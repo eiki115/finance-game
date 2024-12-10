@@ -26,6 +26,12 @@ h1 {
     margin-top: 5px;
 }
 
+.version {
+    font-size: 0.7em;
+    color: #777;
+    margin-left: 5px;
+}
+
 #game-area {
     max-width: 450px;
     margin: 0 auto;
@@ -48,8 +54,8 @@ h1 {
 }
 
 #instruction {
-    font-size: 1em;
-    color: #555;
+    font-size: 0.85em; /* 説明文は小さめでグレー */
+    color: #999; 
     margin-bottom: 20px;
     line-height: 1.6em;
 }
@@ -89,4 +95,10 @@ footer {
     background: #fff3cd;
     padding: 2px 4px;
     border-radius: 4px;
+}
+
+.brand {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #aaa;
 }
