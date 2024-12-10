@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
-    <title>子ども向け金融教育ゲーム（サンプル）</title>
+    <title>おこづかいゲーム - 金融教育</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>おこづかい貯めて ほしいものを買おう！</h1>
+    <header>
+        <h1>おこづかいゲーム 🎉</h1>
+        <p class="subtitle">クイズに答えてお金を増やし、ほしいもの(🐷貯金箱)を買おう！</p>
+    </header>
     <div id="game-area">
-        <!-- 最初から即ゲーム状態を表示したいので「読み込み中...」は削除 -->
         <p id="status"></p>
+        <p id="instruction"></p>
         <div id="controls"></div>
     </div>
+    <footer>
+        <p>このゲームで遊ぶうちに、お金の大切さや計画的な使い方を学べるよ！</p>
+        <p>※継続利用でさらに学びが深まるため、<span class="highlight">月々1000円のサブスク</span>でもっとたくさんのステージを遊べるオプションもあります。</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
